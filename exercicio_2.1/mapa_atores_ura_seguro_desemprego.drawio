@@ -1,0 +1,247 @@
+<mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- ===== TÍTULO ===== -->
+    <mxCell id="title" value="Mapa de Atores — Atendimento ao Seguro-Desemprego via URA Caixa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="427" y="18" width="800" height="36" as="geometry" />
+    </mxCell>
+
+    <!-- ===== ANÉIS CONCÊNTRICOS (fundo) ===== -->
+
+    <!-- Anel 5 — Transbordo Físico/Institucional (overflow, tracejado) -->
+    <mxCell id="ring5" value="" style="ellipse;fillColor=#f9f9f9;strokeColor=#aaaaaa;strokeWidth=1;dashed=1;dashPattern=8 4;" vertex="1" parent="1">
+      <mxGeometry x="57" y="62" width="1540" height="1040" as="geometry" />
+    </mxCell>
+
+    <!-- Anel 4 — Macroambiente -->
+    <mxCell id="ring4" value="" style="ellipse;fillColor=#FFF9F0;strokeColor=#999966;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="207" y="112" width="1240" height="930" as="geometry" />
+    </mxCell>
+
+    <!-- Anel 3 — Backstage Estratégico -->
+    <mxCell id="ring3" value="" style="ellipse;fillColor=#F5F5FF;strokeColor=#7777aa;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="357" y="207" width="940" height="740" as="geometry" />
+    </mxCell>
+
+    <!-- Anel 2 — Backstage Tecnológico -->
+    <mxCell id="ring2" value="" style="ellipse;fillColor=#F0F8F0;strokeColor=#557755;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="487" y="302" width="680" height="550" as="geometry" />
+    </mxCell>
+
+    <!-- Anel 1 — Frontstage -->
+    <mxCell id="ring1" value="" style="ellipse;fillColor=#FFF0F0;strokeColor=#bb4444;strokeWidth=2;" vertex="1" parent="1">
+      <mxGeometry x="617" y="392" width="420" height="370" as="geometry" />
+    </mxCell>
+
+    <!-- ===== RÓTULOS DOS ANÉIS ===== -->
+    <mxCell id="lbl_overflow" value="Transbordo Físico e Institucional" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;fontColor=#999999;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="677" y="68" width="300" height="22" as="geometry" />
+    </mxCell>
+    <mxCell id="lbl_macro" value="Macroambiente (Governança e Geração de Dados)" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;fontColor=#887755;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="677" y="118" width="300" height="22" as="geometry" />
+    </mxCell>
+    <mxCell id="lbl_bs_strat" value="Backstage Estratégico" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;fontColor=#555588;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="727" y="213" width="200" height="22" as="geometry" />
+    </mxCell>
+    <mxCell id="lbl_bs_tech" value="Backstage Tecnológico" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;fontColor=#447744;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="727" y="308" width="200" height="22" as="geometry" />
+    </mxCell>
+    <mxCell id="lbl_front" value="Frontstage" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=9;fontColor=#bb4444;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="777" y="398" width="100" height="22" as="geometry" />
+    </mxCell>
+
+    <!-- ===== ATORES ===== -->
+
+    <!-- N. Cidadão Requerente — centro — Verde (pessoa) -->
+    <mxCell id="N" value="N. Cidadão Requerente" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;strokeWidth=2;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="727" y="548" width="200" height="58" as="geometry" />
+    </mxCell>
+
+    <!-- FRONTSTAGE -->
+    <!-- O. URA — Cinza (sistema) -->
+    <mxCell id="O" value="O. URA (Autoatendimento)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="747" y="398" width="160" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- P. ASR/NLP — Cinza (sistema) -->
+    <mxCell id="P" value="P. ASR / NLP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="950" y="662" width="140" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- Q. Atendente Humano — Verde (pessoa) -->
+    <mxCell id="Q" value="Q. Atendente Humano" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="564" y="662" width="155" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- BACKSTAGE TECNOLÓGICO -->
+    <!-- J. ACD/CTI — Cinza (sistema) -->
+    <mxCell id="J" value="J. ACD / CTI (Roteamento)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="1090" y="552" width="160" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- K. Fornecedores Telecom — Laranja (org privada) -->
+    <mxCell id="K" value="K. Fornecedores Telecom / Nuvem" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="1005" y="745" width="175" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- L. Equipe TI — Verde (pessoa) -->
+    <mxCell id="L" value="L. Equipe de TI (Suporte)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="747" y="840" width="160" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- M. Supervisores — Verde (pessoa) -->
+    <mxCell id="M" value="M. Supervisores da Central" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="400" y="552" width="165" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- BACKSTAGE ESTRATÉGICO -->
+    <!-- F. Caixa Econômica Federal — Azul (órgão público) -->
+    <mxCell id="F" value="F. Caixa Econômica Federal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="727" y="213" width="200" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- G. Seg. Informação / LGPD — Verde (pessoa/área) -->
+    <mxCell id="G" value="G. Seg. Informação / LGPD (KBA)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="1080" y="298" width="185" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- H. Canais Digitais — Cinza (sistema) -->
+    <mxCell id="H" value="H. Gov.br / CTPS Digital" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="1065" y="840" width="160" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- I. TCU/CGU — Azul (órgão público) -->
+    <mxCell id="I" value="I. TCU / CGU (Controle)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="390" y="840" width="155" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- MACROAMBIENTE -->
+    <!-- A. Empregadores — Laranja (org privada) -->
+    <mxCell id="A" value="A. Empregadores (eSocial)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="1215" y="238" width="170" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- B. CODEFAT — Azul (órgão público) -->
+    <mxCell id="B" value="B. CODEFAT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="757" y="118" width="140" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- C. MTE — Azul (órgão público) -->
+    <mxCell id="C" value="C. MTE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="270" y="238" width="140" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- D. Dataprev — Azul (órgão público tecnológico) -->
+    <mxCell id="D" value="D. Dataprev" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="1360" y="548" width="140" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- E. FAT — Roxo (fundo/lei) -->
+    <mxCell id="E" value="E. FAT (Art. 239 CF)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="155" y="548" width="155" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- TRANSBORDO -->
+    <!-- R. SRTEs/SINE — Azul (órgão público) -->
+    <mxCell id="R" value="R. SRTEs / SINE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="757" y="1050" width="140" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- S. DPU/JEF — Azul (órgão público) -->
+    <mxCell id="S" value="S. DPU / JEF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="240" y="1000" width="140" height="44" as="geometry" />
+    </mxCell>
+
+    <!-- ===== RELAÇÕES CRÍTICAS ===== -->
+
+    <!-- RELAÇÃO 1 — Cadeia de dados (confirmada) — Vermelho -->
+    <!-- A → D -->
+    <mxCell id="arr_AD" value="dados" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;strokeColor=#CC0000;strokeWidth=2;fillColor=#CC0000;fontSize=8;fontColor=#CC0000;labelBackgroundColor=#FFF9F0;" edge="1" source="A" target="D" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- D → C -->
+    <mxCell id="arr_DC" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#CC0000;strokeWidth=2;fillColor=#CC0000;" edge="1" source="D" target="C" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- C → O -->
+    <mxCell id="arr_CO" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#CC0000;strokeWidth=2;fillColor=#CC0000;" edge="1" source="C" target="O" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- O → N -->
+    <mxCell id="arr_ON" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#CC0000;strokeWidth=2;fillColor=#CC0000;" edge="1" source="O" target="N" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- RELAÇÃO 2 — Barreira KBA (confirmada) — Laranja -->
+    <mxCell id="arr_GN" value="barreira KBA" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#E07000;strokeWidth=2;fillColor=#E07000;fontSize=8;fontColor=#E07000;labelBackgroundColor=#F5F5FF;" edge="1" source="G" target="N" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- RELAÇÃO 3 — Cadeia normativa (confirmada) — Azul -->
+    <!-- B → F -->
+    <mxCell id="arr_BF" value="norma" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0055BB;strokeWidth=2;fillColor=#0055BB;fontSize=8;fontColor=#0055BB;labelBackgroundColor=#FFF9F0;" edge="1" source="B" target="F" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- F → O -->
+    <mxCell id="arr_FO" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0055BB;strokeWidth=2;fillColor=#0055BB;" edge="1" source="F" target="O" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- RELAÇÃO 4 — Roteamento ACD (H5 — hipótese) — Roxo tracejado -->
+    <!-- J → Q -->
+    <mxCell id="arr_JQ" value="H5 — roteamento" style="edgeStyle=orthogonalEdgeStyle;rounded=1;dashed=1;dashPattern=6 4;strokeColor=#9673a6;strokeWidth=2;fillColor=#9673a6;fontSize=8;fontColor=#9673a6;labelBackgroundColor=#F0F8F0;" edge="1" source="J" target="Q" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- Q → N -->
+    <mxCell id="arr_QN" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;dashed=1;dashPattern=6 4;strokeColor=#9673a6;strokeWidth=2;fillColor=#9673a6;" edge="1" source="Q" target="N" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- ===== LEGENDA ===== -->
+    <mxCell id="leg_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#cccccc;strokeWidth=1;" vertex="1" parent="1">
+      <mxGeometry x="62" y="870" width="390" height="258" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_title" value="Legenda" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=11;fontStyle=1;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="78" y="878" width="100" height="24" as="geometry" />
+    </mxCell>
+
+    <!-- Tipos de ator -->
+    <mxCell id="leg_pub" value="Órgão Público" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="78" y="906" width="130" height="28" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_sys" value="Sistema / Tecnologia" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="78" y="942" width="130" height="28" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_priv" value="Org. Privada" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="78" y="978" width="130" height="28" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_pessoa" value="Pessoa / Área" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="78" y="1014" width="130" height="28" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_fundo" value="Fundo / Lei" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673a6;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="78" y="1050" width="130" height="28" as="geometry" />
+    </mxCell>
+
+    <!-- Tipos de seta -->
+    <mxCell id="leg_arr1_lbl" value="— Cadeia de dados (confirmada)" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=9;fontColor=#CC0000;" vertex="1" parent="1">
+      <mxGeometry x="218" y="906" width="224" height="28" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_arr2_lbl" value="— Barreira KBA (confirmada)" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=9;fontColor=#E07000;" vertex="1" parent="1">
+      <mxGeometry x="218" y="942" width="224" height="28" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_arr3_lbl" value="— Cadeia normativa (confirmada)" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=9;fontColor=#0055BB;" vertex="1" parent="1">
+      <mxGeometry x="218" y="978" width="224" height="28" as="geometry" />
+    </mxCell>
+    <mxCell id="leg_arr4_lbl" value="- - Roteamento ACD (H5 — hipótese)" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=9;fontColor=#9673a6;" vertex="1" parent="1">
+      <mxGeometry x="218" y="1014" width="224" height="28" as="geometry" />
+    </mxCell>
+
+    <!-- Fonte -->
+    <mxCell id="fonte" value="Fonte: B_relatorio_assistente_v3.md | Framework: Goffman (1959), Shostack (1984)" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=8;fontColor=#999999;fontStyle=2;" vertex="1" parent="1">
+      <mxGeometry x="78" y="1092" width="360" height="28" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>
